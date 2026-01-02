@@ -1,0 +1,238 @@
+div {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.header {
+  text-align: right;
+  margin: 20px;
+}
+.header .user-info-api-img img {
+  width: 22px;
+}
+
+.user-info a {
+  color: #009688;
+}
+
+.qzsy-form {
+  width: 50vw;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+/* 排盘结果 */
+.pai-pan-dialog .el-dialog__body {
+  padding-top: 0;
+}
+
+.ming-title,
+.gong-title {
+  display: flex;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: bold;
+  background-color: #a4a5a544;
+}
+.ming-title div,
+.gong-title div {
+  border-right: 1px solid #000;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.ming-content,
+.gong-content {
+  border: 1px solid #000;
+  border-top: none;
+  border-bottom: none;
+}
+.ming-item {
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.ming-item div {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.ming-item:nth-of-type(even) {
+  background-color: #a4a5a544;
+}
+
+.ming-title div,
+.ming-item div,
+.gong-title div {
+  flex: 1;
+}
+.ming-title div:nth-child(2),
+.ming-item div:nth-child(2) {
+  flex: 3;
+}
+
+.ming-item.gong div:nth-child(2),
+.gong-title div:nth-child(2) {
+  flex: 1;
+}
+
+.ming-title div:nth-child(4),
+.ming-item div:nth-child(4) {
+  flex: 3;
+}
+
+.ming-title div:nth-child(12),
+.ming-item div:nth-child(12) {
+  flex: 1;
+  border-right: none;
+}
+
+.sha {
+  border: 1px solid #000;
+  border-bottom: none;
+}
+.sha .sha-item {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.sha-item {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.sha .sha-item:nth-of-type(even) {
+  background-color: #a4a5a544;
+}
+
+.sha-item div:nth-child(1) {
+  flex: 1;
+}
+
+.sha-item div:nth-child(2) {
+  flex: 2;
+}
+.sha-item div:nth-child(3) {
+  flex: 8;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.now-time {
+  color: rgb(10, 148, 194);
+}
+
+.show-export {
+  margin-top: 20px;
+}
+
+/* 星盘 */
+.xing {
+  text-align: center;
+}
+.xing-item {
+  display: flex;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.xing-item div {
+  flex: 1;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.xing-item:first-child {
+  border-top: 1px solid #000;
+}
+.xing-item div:nth-child(1) {
+  border-left: 1px solid #000;
+}
+
+.xing-item div:nth-child(1),
+.xing-item:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* map */
+.google-map-wrap {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  display: none;
+}
+#googleMap {
+  height: 100%;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-top: 15px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+  height: 30px;
+}
+
+/* 推运表 */
+.pan-btns .el-select .el-input__inner {
+  text-align: center;
+}
+
+.yun-table {
+  text-align: center;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.yun-table .yun-table-content {
+}
+
+.yun-table .hour-i-line {
+  display: flex;
+  /* height: 30px; */
+  line-height: 30px;
+  border-bottom: 1px solid;
+  text-align: center;
+  overflow: hidden;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.yun-table .hour-i-line:nth-child(1) {
+  border-top: 1px solid #000;
+}
+
+.yun-table .hour-head div,
+.yun-table .hour-i-line div {
+  flex: 1;
+  border-right: 1px solid #000;
+}
+.yun-table .hour-head div:nth-child(1),
+.yun-table .hour-i-line div:nth-child(1) {
+  flex: 5;
+}
+
+.yun-table .hour-head div:last-child,
+.yun-table .hour-i-line div:last-child {
+  border: none;
+}
+
+.hour-i-line div:nth-child(39),
+.hour-i-line div:nth-child(50) {
+  border-right: 2px solid rgb(25, 0, 255);
+}
+
+.tui-yun-dialog .el-dialog__body {
+  padding-top: 0;
+}

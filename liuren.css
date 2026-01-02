@@ -1,0 +1,164 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: right;
+  margin: 20px;
+}
+.header .user-info-api-img img {
+  width: 22px;
+}
+
+.user-info a {
+  color: #009688;
+}
+
+.error-input:hover {
+  border-color: red !important;
+}
+
+.error-input {
+  border-color: red !important;
+}
+
+.liuren-form {
+  width: 50vw;
+  margin: 20px auto;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .pan {
+  text-align: center;
+  width: 400px;
+  border: 1px solid #000;
+  margin: 0 1vw;
+  display: inline-block;
+}
+.content .pan .line {
+  display: flex;
+}
+.line1,
+.line2 {
+  border-bottom: 1px solid #000;
+}
+.line2-1,
+.line2-3 {
+  flex-direction: column;
+}
+
+.line2-2 {
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.pan .gong {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-right: 1px solid #000;
+}
+.pan .gong .jiang {
+  color: #0423af;
+}
+.pan .gong .tian {
+  color: #0423af;
+}
+
+.gong4,
+.gong5,
+.gong6,
+.gong7 {
+  border-right: none !important;
+}
+
+.gong5,
+.gong6 {
+  border-left: 1px solid #000;
+}
+
+.gong5 {
+  border-bottom: 1px solid #000;
+  width: 99px !important;
+}
+
+.gong6 {
+  width: 99px !important;
+}
+
+.gong12 {
+  border-bottom: 1px solid #000;
+  width: 99px !important;
+}
+
+.gong11 {
+  width: 99px !important;
+}
+
+.chuan {
+  width: 600px;
+  display: inline-block;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 1vw;
+  margin-top: 50px;
+}
+
+.chuan-l {
+  display: flex;
+  border-bottom: 1px solid #000;
+  height: 30px;
+}
+.chuan-l:last-child {
+  border-bottom: none;
+}
+
+.chuan-l div {
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #000;
+}
+
+.chuan-l div:last-child {
+  border-right: none;
+}
+.chuan-l1 {
+  font-weight: bold;
+}
+
+.ke {
+  width: 600px;
+  display: inline-block;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 1vw;
+  margin-top: 50px;
+}
+
+.ke-l {
+  display: flex;
+  border-bottom: 1px solid #000;
+  height: 30px;
+}
+
+.ke-l:last-child {
+  border-bottom: none;
+}
+.ke-l div {
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #000;
+}
+
+.ke-l div:last-child {
+  border-right: none;
+}

@@ -1,0 +1,260 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: right;
+  margin: 20px;
+}
+.header .user-info-api-img img {
+  width: 22px;
+}
+
+.user-info a {
+  color: #009688;
+}
+
+.content {
+  padding: 20px;
+}
+.applications {
+  display: flex;
+  justify-content: center;
+}
+
+.select-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.select-item .layui-form-label {
+  width: 100px !important;
+}
+
+.error-input:hover {
+  border-color: red !important;
+}
+
+.error-input {
+  border-color: red !important;
+}
+
+.sou-pan-result {
+  min-height: 500px;
+  min-width: 80vw;
+  max-height: 90vh;
+  max-width: 90vw;
+  overflow: scroll;
+}
+
+.sou-pans {
+  display: flex;
+}
+
+.sou-pan-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.sou-pan-i {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 0;
+  /* width: 130px; */
+  width: 185px;
+  text-align: center;
+}
+
+.search-loading {
+  display: none;
+}
+
+.sou-pan-result-btns {
+  margin: 20px auto;
+}
+.w0.s0 {
+  background-color: rgb(30, 255, 30);
+}
+.w0.s1 {
+  background-color: rgb(31, 228, 31);
+}
+.w0.s2 {
+  background-color: rgb(27, 207, 27);
+}
+.w0.s3 {
+  background-color: rgb(18, 168, 18);
+}
+.w0.s4 {
+  background-color: rgb(11, 119, 11);
+}
+.w0.s5 {
+  background-color: rgb(6, 73, 6);
+}
+.w0.s6 {
+  background-color: rgb(3, 37, 3);
+}
+.w0.s7 {
+  background-color: rgb(11, 119, 11);
+}
+.w0.s8 {
+  background-color: rgb(18, 168, 18);
+}
+.w0.s9 {
+  background-color: rgb(88, 228, 86);
+}
+.w0.s10 {
+  background-color: rgb(129, 240, 128);
+}
+.w0.s11 {
+  background-color: rgb(173, 245, 171);
+}
+
+.w1.s0 {
+  background-color: rgb(255, 113, 113);
+}
+.w1.s1 {
+  background-color: rgb(240, 73, 73);
+}
+.w1.s2 {
+  background-color: rgb(226, 36, 36);
+}
+.w1.s3 {
+  background-color: rgb(145, 9, 9);
+}
+.w1.s4 {
+  background-color: rgb(121, 9, 9);
+}
+.w1.s5 {
+  background-color: rgb(104, 6, 6);
+}
+.w1.s6 {
+  background-color: rgb(83, 5, 5);
+}
+.w1.s7 {
+  background-color: rgb(226, 36, 36);
+}
+.w1.s8 {
+  background-color: rgb(233, 52, 52);
+}
+.w1.s9 {
+  background-color: rgb(240, 73, 73);
+}
+.w1.s10 {
+  background-color: rgb(255, 113, 113);
+}
+.w1.s11 {
+  background-color: rgb(253, 141, 141);
+}
+
+.w2.s0 {
+  background-color: rgb(248, 108, 20);
+}
+.w2.s1 {
+  background-color: rgb(231, 99, 17);
+}
+.w2.s2 {
+  background-color: rgb(204, 86, 13);
+}
+.w2.s3 {
+  background-color: rgb(97, 39, 3);
+}
+.w2.s4 {
+  background-color: rgb(73, 30, 3);
+}
+.w2.s5 {
+  background-color: rgb(48, 20, 2);
+}
+.w2.s6 {
+  background-color: rgb(24, 10, 1);
+}
+.w2.s7 {
+  background-color: rgb(204, 86, 13);
+}
+.w2.s8 {
+  background-color: rgb(219, 94, 16);
+}
+.w2.s9 {
+  background-color: rgb(231, 99, 17);
+}
+.w2.s10 {
+  background-color: rgb(248, 108, 20);
+}
+.w2.s11 {
+  background-color: rgb(253, 128, 49);
+}
+
+.w3.s0 {
+  background-color: rgb(194, 182, 22);
+}
+.w3.s1 {
+  background-color: rgb(170, 160, 16);
+}
+.w3.s2 {
+  background-color: rgb(153, 144, 15);
+}
+.w3.s3 {
+  background-color: rgb(107, 100, 7);
+}
+.w3.s4 {
+  background-color: rgb(82, 77, 5);
+}
+.w3.s5 {
+  background-color: rgb(65, 61, 4);
+}
+.w3.s6 {
+  background-color: rgb(37, 35, 2);
+}
+.w3.s7 {
+  background-color: rgb(194, 182, 22);
+}
+.w3.s8 {
+  background-color: rgb(214, 202, 25);
+}
+.w3.s9 {
+  background-color: rgb(238, 224, 30);
+  color: rgb(61, 59, 59);
+}
+.w3.s10 {
+  background-color: rgb(253, 238, 30);
+  color: rgb(61, 59, 59);
+}
+.w3.s11 {
+  background-color: rgb(250, 237, 52);
+  color: rgb(61, 59, 59);
+}
+
+.w4.s0 {
+  background-color: rgb(26, 135, 236);
+}
+.w4.s1 {
+  background-color: rgb(21, 114, 201);
+}
+.w4.s2 {
+  background-color: rgb(16, 100, 179);
+}
+.w4.s3 {
+  background-color: rgb(9, 69, 126);
+}
+.w4.s4 {
+  background-color: rgb(7, 58, 105);
+}
+.w4.s5 {
+  background-color: rgb(5, 47, 87);
+}
+.w4.s6 {
+  background-color: rgb(3, 35, 65);
+}
+.w4.s7 {
+  background-color: rgb(10, 79, 143);
+}
+.w4.s8 {
+  background-color: rgb(16, 100, 179);
+}
+.w4.s9 {
+  background-color: rgb(26, 135, 236);
+}
+.w4.s10 {
+  background-color: rgb(28, 145, 255);
+}
+.w4.s11 {
+  background-color: rgb(49, 154, 252);
+}
